@@ -1,0 +1,99 @@
+.h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+body {
+    background: url(https://i.ytimg.com/vi/LcTQoRlcs-A/maxresdefault.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 7%;
+    width: 100%;
+    margin: auto auto auto auto;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 64px;
+    color: #C0C0C0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.33em;
+}
+
+.box {
+    width: 34%;
+    height: 34%;
+    margin: auto auto auto auto;
+    background-color: rgba(85, 85, 85, 0.33);
+    padding-top: 12px;
+    padding-left: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: #eee;
+}
+
+.answer {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-left: -25px;
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    margin: 30px auto;
+    border-radius: 0.5em;
+    color: #000;
+    font-size: 24px;
+}
+
+.footer {
+    height: 15%;
+    background-color: transparent;
+    padding: auto auto auto auto;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.status {
+    display: flex;
+}
+
+.right,
+.count,
+.reset {
+    width: 33%;
+    text-align: center;
+}
+
+.right {
+    text-align: left;
+}
+
+.reset button {
+    width: 100%;
+    max-width: 200px;
+    margin: 1.1em 0;
+}
+
+.count {
+    text-align: right;
+}
+
+.option {
+    text-align: left;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.status {
+    width: 50%;
+    margin: 0 auto;
+}
